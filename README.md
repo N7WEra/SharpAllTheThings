@@ -84,54 +84,54 @@ Credit -  https://twitter.com/_P1CKLES_
 Link - https://github.com/P1CKLES/SharpBox
 
 # Other projects which doesn't start with Sharp something but absolutely worth knowing about:
-Rubeus - toolset for raw Kerberos interaction and abuses.
+- Rubeus - toolset for raw Kerberos interaction and abuses.
 Credit - https://twitter.com/harmj0y
 Link - https://github.com/GhostPack/Rubeus
-SafetyKatz - combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader.
+- SafetyKatz - combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader.
 Credit - https://twitter.com/harmj0y
 Link - https://github.com/GhostPack/SafetyKatz
-Seatbelt - project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+- Seatbelt - project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
 Credit  -https://twitter.com/harmj0y
 Link - https://github.com/GhostPack/Seatbelt
-Watson -  Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities
+- Watson -  Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities
 Credit - https://twitter.com/_RastaMouse
 Link - https://github.com/rasta-mouse/Watson
-ADFSDump -  dump all sorts of goodies from AD FS.
+- ADFSDump -  dump all sorts of goodies from AD FS.
 Credit - https://twitter.com/doughsec
 Link - https://github.com/fireeye/ADFSDump
-OffensiveCSharp - Collection of Offensive C# Tooling
+- OffensiveCSharp - Collection of Offensive C# Tooling
 Credit - https://twitter.com/matterpreter
 Link - https://github.com/matterpreter/OffensiveCSharp
-CredSniper - Prompts the current user for their credentials using the CredUIPromptForWindowsCredentials WinAPI function. Supports an argument to provide the message text that will be shown to the user.
+- CredSniper - Prompts the current user for their credentials using the CredUIPromptForWindowsCredentials WinAPI function. Supports an argument to provide the message text that will be shown to the user.
 Credit - https://twitter.com/matterpreter
 Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
-EncryptedZIP -Compresses a directory or file and then encrypts the ZIP file with a supplied key using AES256 CFB. This assembly also clears the key out of memory using RtlZeroMemory. Use the included Decrypter progam to decrypt the archive.
+- EncryptedZIP -Compresses a directory or file and then encrypts the ZIP file with a supplied key using AES256 CFB. This assembly also clears the key out of memory using RtlZeroMemory. Use the included Decrypter progam to decrypt the archive.
 Credit - https://twitter.com/matterpreter
 Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/EncryptedZIP
-SessionSearcher - Searches all connected drives for PuTTY private keys and RDP connection files and parses them for relevant details. Based on SessionGopher by @arvanaghi.
+- SessionSearcher - Searches all connected drives for PuTTY private keys and RDP connection files and parses them for relevant details. Based on SessionGopher by @arvanaghi.
 Credit - https://twitter.com/matterpreter
 Link -https://github.com/matterpreter/OffensiveCSharp/tree/master/SearchSessions
-UnquotedPath - Outputs a list of unquoted service paths that aren't in System32/SysWow64 to plant a PE into. 
+- UnquotedPath - Outputs a list of unquoted service paths that aren't in System32/SysWow64 to plant a PE into. 
 Credit -https://twitter.com/matterpreter
 Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/UnqoutedPath
-Internal Monologue - Retrieving NTLM Hashes without Touching LSASS
+- Internal Monologue - Retrieving NTLM Hashes without Touching LSASS
 Credit - https://www.twitter.com/elad_shamir
 Link - https://github.com/eladshamir/Internal-Monologue
-InveighZero - Windows C# LLMNR/mDNS/NBNS/DNS spoofer/man-in-the-middle tool
+- InveighZero - Windows C# LLMNR/mDNS/NBNS/DNS spoofer/man-in-the-middle tool
 Credit - https://twitter.com/kevin_robertson
 Link - https://github.com/Kevin-Robertson/InveighZero
-SCShell - fileless lateral movement tool that relies on ChangeServiceConfigA to run commands.
+- SCShell - fileless lateral movement tool that relies on ChangeServiceConfigA to run commands.
 Credit - https://twitter.com/MrUn1k0d3r
 Link - https://github.com/Mr-Un1k0d3r/SCShell
-ATPMiniDump - Dumping LSASS memory with MiniDumpWriteDump on PssCaptureSnapShot to evade WinDefender ATP credential-theft.
+- ATPMiniDump - Dumping LSASS memory with MiniDumpWriteDump on PssCaptureSnapShot to evade WinDefender ATP credential-theft.
 Credit - https://twitter.com/b4rtik
 Link - https://github.com/b4rtik/ATPMiniDump
-RdpTheif - Extracting Clear Text Passwords from mstsc.exe using API Hooking.
+- RdpTheif - Extracting Clear Text Passwords from mstsc.exe using API Hooking.
 Credit - https://twitter.com/0x09AL
 Link - https://github.com/0x09AL/RdpThief
-Spray-AD -  audit Active Directory user accounts for weak, well known or easy guessable passwords.
+- Spray-AD -  audit Active Directory user accounts for weak, well known or easy guessable passwords.
 Credit - https://twitter.com/Cneelis
 Link - https://github.com/outflanknl/Spray-AD
-Recon-AD - an AD recon tool based on ADSI and reflective DLL’s
+- Recon-AD - an AD recon tool based on ADSI and reflective DLL’s
 Credit - https://twitter.com/Cneelis
 Link - https://github.com/outflanknl/Recon-AD
