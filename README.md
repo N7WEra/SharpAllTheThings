@@ -67,6 +67,9 @@ Link - https://github.com/djhohnstein/SharpSearch
 - _SharpClipHistory_ - Read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
 Credit- https://twitter.com/pkb1s
 Link - https://github.com/FSecureLABS/SharpClipHistory
+- _SharpClipboard_ - Monitor of the clipboard for any passwords
+Credit- https://twitter.com/slyd0g
+Link - https://github.com/slyd0g/SharpClipboard
 
 ### Lateral Movement
 - _SharpCom_ -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
