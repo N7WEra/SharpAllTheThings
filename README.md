@@ -80,7 +80,7 @@ Link - https://github.com/anthemtotheego/SharpExec
 
 ### Exfiltration
 - _SharpBox_ - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
-Credit -  https://twitter.com/\_P1CKLES\_
+Credit -  https://twitter.com/_P1CKLES_
 Link - https://github.com/P1CKLES/SharpBox
 
 
@@ -120,7 +120,7 @@ Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/UnqoutedPath
 Credit - https://www.twitter.com/elad_shamir
 Link - https://github.com/eladshamir/Internal-Monologue
 - _InveighZero_ - Windows C# LLMNR/mDNS/NBNS/DNS spoofer/man-in-the-middle tool
-Credit - https://twitter.com/kevin\_robertson
+Credit - https://twitter.com/kevin_robertson
 Link - https://github.com/Kevin-Robertson/InveighZero
 - _SCShell_ - fileless lateral movement tool that relies on ChangeServiceConfigA to run commands.
 Credit - https://twitter.com/MrUn1k0d3r
