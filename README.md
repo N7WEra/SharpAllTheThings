@@ -1,92 +1,89 @@
 # SharpAllTheThings
 The idea is to collect all the C# projects that are Sharp{Word} that can be used in Cobalt Strike as execute assembly command.
 
-Execution
-
-SharpWMI - implementation of various WMI functionality. This includes local/remote WMI queries, remote WMI process creation through win32_process, and remote execution of arbitrary VBS through WMI event subscriptions. Alternate credentials are also supported for remote methods.
+# Execution
+- SharpWMI - implementation of various WMI functionality. This includes local/remote WMI queries, remote WMI process creation through win32_process, and remote execution of arbitrary VBS through WMI event subscriptions. Alternate credentials are also supported for remote methods.
 Credit - https://twitter.com/harmj0y
 Link - https://github.com/GhostPack/SharpWMI
-SharpGPOAbuse - take advantage of a user's edit rights on a Group Policy Object (GPO) in order to compromise the objects that are controlled by that GPO.
+- SharpGPOAbuse - take advantage of a user's edit rights on a Group Policy Object (GPO) in order to compromise the objects that are controlled by that GPO.
 Credit - https://twitter.com/pkb1s
 Link - https://github.com/FSecureLABS/SharpGPOAbuse
-Persistence
 
-SharpPersist - Windows persistence toolkit written in C#. 
+# Persistence
+- SharpPersist - Windows persistence toolkit written in C#. 
 Credit - https://twitter.com/h4wkst3r
 Link - https://github.com/fireeye/SharPersist
-Privilege Escalation
 
-SharpUp -  port of various PowerUp functionality
+# Privilege Escalation
+- SharpUp -  port of various PowerUp functionality
 Credit -  https://twitter.com/harmj0y
 Link - https://github.com/GhostPack/SharpUp
-Defense Evasion
 
-SharpCradle - download and execute .NET binaries into memory.
+# Defense Evasion
+- SharpCradle - download and execute .NET binaries into memory.
 Credit - https://twitter.com/anthemtotheego
 Link - https://github.com/anthemtotheego/SharpCradle
-Credential Access
 
-SharpLocker - helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
+# Credential Access
+- SharpLocker - helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
 Credit -  https://twitter.com/Mattspickford
 Link - https://github.com/Pickfordmatt/SharpLocker
-SharpDPAPI - port of some DPAPI functionality from @gentilkiwi's Mimikatz project.
+- SharpDPAPI - port of some DPAPI functionality from @gentilkiwi's Mimikatz project.
 Credit - https://twitter.com/harhttps://twitter.com/CptJesusmj0y
 Link - https://github.com/GhostPack/SharpDPAPI
-SharpDump -  port of PowerSploit's Out-Minidump.ps1 functionality.
+- SharpDump -  port of PowerSploit's Out-Minidump.ps1 functionality.
 Credit - https://twitter.com/harmj0y
 Link - https://github.com/GhostPack/SharpDump
-SharpWeb - Retrieve saved browser credentials from Google Chrome, Mozilla Firefox and Microsoft Internet Explorer/Edge.
+- SharpWeb - Retrieve saved browser credentials from Google Chrome, Mozilla Firefox and Microsoft Internet Explorer/Edge.
 Credit - https://twitter.com/djhohnstein
 Link - https://github.com/djhohnstein/SharpWeb
-Discovery
 
-SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
+# Discovery
+- SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
 Credit -  The amazing crew of Bloodhound (https://www.twitter.com/_wald0, https://twitter.com/CptJesus, and https://twitter.com/CptJesus)
 Link - https://github.com/BloodHoundAD/BloodHound/tree/master/Ingestors
-SharpWitness - C# version of EyeWitness by Christopher Truncer. Take screenshots of websites, provide some server header info, and identify default credentials if possible.
+- SharpWitness - C# version of EyeWitness by Christopher Truncer. Take screenshots of websites, provide some server header info, and identify default credentials if possible.
 Credit - https://twitter.com/_RastaMouse
 Link - https://github.com/rasta-mouse/SharpWitness
-SharpDomainSpray -  very simple password spraying tool written in .NET. It takes a password then finds users in the domain and attempts to authenticate to the domain with that given password.
+- SharpDomainSpray -  very simple password spraying tool written in .NET. It takes a password then finds users in the domain and attempts to authenticate to the domain with that given password.
 Credit - https://twitter.com/hunniccyber
 Link - https://github.com/HunnicCyber/SharpDomainSpray
-SharpSniper -  Find specific users in active directory via their username and logon IP address
+- SharpSniper -  Find specific users in active directory via their username and logon IP address
 Credit - https://twitter.com/hunniccyber
 Link - https://github.com/HunnicCyber/SharpDomainSpray
-SharpFruit - Port of Find-Fruit.ps1, aid Penetration Testers in finding juicy targets on internal networks without nmap scanning.
+- SharpFruit - Port of Find-Fruit.ps1, aid Penetration Testers in finding juicy targets on internal networks without nmap scanning.
 Credit - https://twitter.com/424f424f
 Link - https://github.com/rvrsh3ll/SharpFruit
-SharpPrinter- tool to enumerate all visible network printers in local network
+- SharpPrinter- tool to enumerate all visible network printers in local network
 Credit - https://twitter.com/424f424f
 Link - https://github.com/rvrsh3ll/SharpPrinter
-SharpView - C# implementation of harmj0y's PowerView
+- SharpView - C# implementation of harmj0y's PowerView
 Credit - https://twitter.com/tevora
 Link - https://github.com/tevora-threat/SharpView
-SharpSearch - Search files for extensions as well as text within.
+- SharpSearch - Search files for extensions as well as text within.
 Credit - https://twitter.com/djhohnstein
 Link - https://github.com/djhohnstein/SharpSearch
-SharpClipHistory - Read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
+- SharpClipHistory - Read the contents of a user's clipboard history in Windows 10 starting from the 1809 Build.
 Credit- https://twitter.com/pkb1s
 Link - https://github.com/FSecureLABS/SharpClipHistory
-Lateral Movement
 
-SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
+# Lateral Movement
+- SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
 Credit - https://twitter.com/424f424f
 Link - https://github.com/rvrsh3ll/SharpCOM
-Sharpexcel4_dcom - Port of Invoke-Excel4DCOM, Lateral movement using Excel 4.0 / XLM macros via DCOM (direct shellcode injection in Excel.exe)
+- Sharpexcel4_dcom - Port of Invoke-Excel4DCOM, Lateral movement using Excel 4.0 / XLM macros via DCOM (direct shellcode injection in Excel.exe)
 Credit - https://twitter.com/424f424f
 Link - https://github.com/rvrsh3ll/SharpExcel4-DCOM
-SharpExec - C# tool designed to aid with lateral movement
+- SharpExec - C# tool designed to aid with lateral movement
 Credit - https://twitter.com/anthemtotheego?lang=en
 Link - https://github.com/anthemtotheego/SharpExec
-Exfiltration
 
-SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
+# Exfiltration
+- SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
 Credit -  https://twitter.com/_P1CKLES_
 Link - https://github.com/P1CKLES/SharpBox
 
-
-Other projects which doesn't start with Sharp something but absolutely worth knowing about:
-
+# Other projects which doesn't start with Sharp something but absolutely worth knowing about:
 Rubeus - toolset for raw Kerberos interaction and abuses.
 Credit - https://twitter.com/harmj0y
 Link - https://github.com/GhostPack/Rubeus
