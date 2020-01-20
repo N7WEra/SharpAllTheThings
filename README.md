@@ -86,6 +86,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 1. SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
    * Credit -  https://twitter.com/_P1CKLES_
    * Link - https://github.com/P1CKLES/SharpBox
+2. Zipper - a CobaltStrike file and folder compression utility.
+   * Credit -   Cornelis de Plaa (@Cneelis) / Outflank
+   * Link - https://github.com/outflanknl/Zipper
 
 
 
