@@ -38,6 +38,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 4. SharpWeb - Retrieve saved browser credentials from Google Chrome, Mozilla Firefox and Microsoft Internet Explorer/Edge.
    * Credit - https://twitter.com/djhohnstein
    * Link - https://github.com/djhohnstein/SharpWeb
+4. SharpCookieMonster - Extracts cookies from Chrome.
+   * Credit - https://twitter.com/m0rv4i , original work by @defaultnamehere
+   * Link - https://github.com/m0rv4i/SharpCookieMonster
 
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
@@ -81,6 +84,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 3. SharpExec - C# tool designed to aid with lateral movement
    * Credit - https://twitter.com/anthemtotheego?lang=en
    * Link - https://github.com/anthemtotheego/SharpExec
+4. SharpRDP - Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
+   * Credit - https://twitter.com/0xthirteen
+   * Link - https://github.com/0xthirteen/SharpRDP
 
 ### Exfiltration
 1. SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
