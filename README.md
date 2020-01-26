@@ -146,10 +146,10 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
     * Credit - https://twitter.com/Cneelis
     * Link - https://github.com/outflanknl/Recon-AD
 18. Zipper - a CobaltStrike file and folder compression utility.
-   * Credit - Cornelis de Plaa (@Cneelis) / Outflank
-   * Link - https://github.com/outflanknl/Zipper
+    * Credit - Cornelis de Plaa (@Cneelis) / Outflank
+    * Link - https://github.com/outflanknl/Zipper
 19. Grouper2 - A tool for pentesters to help find security-related misconfigurations in Active Directory Group Policy.
-   * Credit - l0ss (@mikeloss) https://twitter.com/mikeloss
-   * Link - https://github.com/l0ss/Grouper2/blob/master/README.md
+    * Credit - l0ss (@mikeloss) https://twitter.com/mikeloss
+    * Link - https://github.com/l0ss/Grouper2/blob/master/README.md
 
 
