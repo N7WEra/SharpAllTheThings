@@ -92,11 +92,6 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 1. SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
    * Credit -  https://twitter.com/_P1CKLES_
    * Link - https://github.com/P1CKLES/SharpBox
-2. Zipper - a CobaltStrike file and folder compression utility.
-   * Credit -   Cornelis de Plaa (@Cneelis) / Outflank
-   * Link - https://github.com/outflanknl/Zipper
-
-
 
 ## Other projects which doesn't start with Sharp something but absolutely worth knowing about:
 1. Rubeus - toolset for raw Kerberos interaction and abuses.
@@ -150,3 +145,11 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 17. Recon-AD - an AD recon tool based on ADSI and reflective DLL’s
     * Credit - https://twitter.com/Cneelis
     * Link - https://github.com/outflanknl/Recon-AD
+18. Zipper - a CobaltStrike file and folder compression utility.
+   * Credit - Cornelis de Plaa (@Cneelis) / Outflank
+   * Link - https://github.com/outflanknl/Zipper
+19. Grouper2 - A tool for pentesters to help find security-related misconfigurations in Active Directory Group Policy.
+   * Credit - l0ss (@mikeloss) https://twitter.com/mikeloss
+   * Link - https://github.com/l0ss/Grouper2/blob/master/README.md
+
+
