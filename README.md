@@ -14,7 +14,10 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 1. SharpPersist - Windows persistence toolkit written in C#. 
    * Credit - https://twitter.com/h4wkst3r
    * Link - https://github.com/fireeye/SharPersist
-
+2. SharpStay - .NET project for installing Persistence
+   * Credit - https://twitter.com/0xthirteen
+   * Link - https://github.com/0xthirteen/SharpStay
+ 
 ### Privilege Escalation
 1. SharpUp -  port of various PowerUp functionality
    * Credit -  https://twitter.com/harmj0y
@@ -87,6 +90,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 4. SharpRDP - Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
    * Credit - https://twitter.com/0xthirteen
    * Link - https://github.com/0xthirteen/SharpRDP
+5. SharpMove - .NET Project for performing Authenticated Remote Execution
+   * Credit - https://twitter.com/0xthirteen
+   * Link - https://github.com/0xthirteen/SharpMove
 
 ### Exfiltration
 1. SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
