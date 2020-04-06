@@ -76,6 +76,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 10. SharpClipboard - Monitor of the clipboard for any passwords
     * Credit- https://twitter.com/slyd0g
     * Link - https://github.com/slyd0g/SharpClipboard
+11. SharpChromium - .NET 4.0 CLR Project to retrieve Chromium data, such as cookies, history and saved logins.
+    * Credit - https://twitter.com/djhohnstein
+    * Link - https://github.com/djhohnstein/SharpChromium
 
 ### Lateral Movement
 1. SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
@@ -157,5 +160,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 19. Grouper2 - A tool for pentesters to help find security-related misconfigurations in Active Directory Group Policy.
     * Credit - l0ss (@mikeloss) https://twitter.com/mikeloss
     * Link - https://github.com/l0ss/Grouper2/blob/master/README.md
+20. EyeWitness - take screenshots of websites, provide some server header info, and identify default credentials if possible
+    * Credit - https://twitter.com/Matt_Grandy_ and https://twitter.com/christruncer
+    * Link - https://github.com/FortyNorthSecurity/EyeWitness
+
 
 
