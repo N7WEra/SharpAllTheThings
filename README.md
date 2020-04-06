@@ -107,11 +107,11 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
     * Credit - https://twitter.com/djhohnstein
     * Link - https://github.com/djhohnstein/SharpChromium
 12. ADFSDump -  dump all sorts of goodies from AD FS.
-   * Credit - https://twitter.com/doughsec
-   * Link - https://github.com/fireeye/ADFSDump
+    * Credit - https://twitter.com/doughsec
+    * Link - https://github.com/fireeye/ADFSDump
 13. SessionSearcher - Searches all connected drives for PuTTY private keys and RDP connection files and parses them for relevant details. Based on SessionGopher by @arvanaghi.
-   * Credit - https://twitter.com/matterpreter
-   * Link -https://github.com/matterpreter/OffensiveCSharp/tree/master/SearchSessions
+    * Credit - https://twitter.com/matterpreter
+    * Link -https://github.com/matterpreter/OffensiveCSharp/tree/master/SearchSessions
 14. InveighZero - Windows C# LLMNR/mDNS/NBNS/DNS spoofer/man-in-the-middle tool
     * Credit - https://twitter.com/kevin_robertson
     * Link - https://github.com/Kevin-Robertson/InveighZero
