@@ -22,11 +22,26 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 1. SharpUp -  port of various PowerUp functionality
    * Credit -  https://twitter.com/harmj0y
    * Link - https://github.com/GhostPack/SharpUp
+2. Seatbelt - project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+   * Credit  -https://twitter.com/harmj0y
+   * Link - https://github.com/GhostPack/Seatbelt
+3. Watson -  Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities
+   * Credit - https://twitter.com/\_RastaMouse
+   * Link - https://github.com/rasta-mouse/Watson
+4. UnquotedPath - Outputs a list of unquoted service paths that aren't in System32/SysWow64 to plant a PE into. 
+    * Credit -https://twitter.com/matterpreter
+    * Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/UnqoutedPath
 
 ### Defense Evasion
 1. SharpCradle - download and execute .NET binaries into memory.
    * Credit - https://twitter.com/anthemtotheego
    * Link - https://github.com/anthemtotheego/SharpCradle
+2. Internal Monologue - Retrieving NTLM Hashes without Touching LSASS
+    * Credit - https://www.twitter.com/elad_shamir
+    * Link - https://github.com/eladshamir/Internal-Monologue
+3. ATPMiniDump - Dumping LSASS memory with MiniDumpWriteDump on PssCaptureSnapShot to evade WinDefender ATP credential-theft.
+    * Credit - https://twitter.com/b4rtik
+    * Link - https://github.com/b4rtik/ATPMiniDump
 
 ### Credential Access
 1. SharpLocker - helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
@@ -44,6 +59,18 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 4. SharpCookieMonster - Extracts cookies from Chrome.
    * Credit - https://twitter.com/m0rv4i , original work by @defaultnamehere
    * Link - https://github.com/m0rv4i/SharpCookieMonster
+5. SafetyKatz - combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader.
+   * Credit - https://twitter.com/harmj0y
+   * Link - https://github.com/GhostPack/SafetyKatz
+6. CredSniper - Prompts the current user for their credentials using the CredUIPromptForWindowsCredentials WinAPI function. Supports an argument to provide the message text that will be shown to the user.
+   * Credit - https://twitter.com/matterpreter
+   * Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
+7. Rubeus - toolset for raw Kerberos interaction and abuses.
+   * Credit - https://twitter.com/harmj0y
+   * Link - https://github.com/GhostPack/Rubeus
+8. RdpTheif - Extracting Clear Text Passwords from mstsc.exe using API Hooking.
+    * Credit - https://twitter.com/0x09AL
+    * Link - https://github.com/0x09AL/RdpThief
 
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
@@ -79,6 +106,28 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 11. SharpChromium - .NET 4.0 CLR Project to retrieve Chromium data, such as cookies, history and saved logins.
     * Credit - https://twitter.com/djhohnstein
     * Link - https://github.com/djhohnstein/SharpChromium
+12. ADFSDump -  dump all sorts of goodies from AD FS.
+   * Credit - https://twitter.com/doughsec
+   * Link - https://github.com/fireeye/ADFSDump
+13. SessionSearcher - Searches all connected drives for PuTTY private keys and RDP connection files and parses them for relevant details. Based on SessionGopher by @arvanaghi.
+   * Credit - https://twitter.com/matterpreter
+   * Link -https://github.com/matterpreter/OffensiveCSharp/tree/master/SearchSessions
+14. InveighZero - Windows C# LLMNR/mDNS/NBNS/DNS spoofer/man-in-the-middle tool
+    * Credit - https://twitter.com/kevin_robertson
+    * Link - https://github.com/Kevin-Robertson/InveighZero
+15. EyeWitness - take screenshots of websites, provide some server header info, and identify default credentials if possible
+    * Credit - https://twitter.com/Matt_Grandy_ and https://twitter.com/christruncer
+    * Link - https://github.com/FortyNorthSecurity/EyeWitness
+16. Spray-AD -  audit Active Directory user accounts for weak, well known or easy guessable passwords.
+    * Credit - https://twitter.com/Cneelis
+    * Link - https://github.com/outflanknl/Spray-AD
+17. Recon-AD - an AD recon tool based on ADSI and reflective DLL’s
+    * Credit - https://twitter.com/Cneelis
+    * Link - https://github.com/outflanknl/Recon-AD
+18. Grouper2 - A tool for pentesters to help find security-related misconfigurations in Active Directory Group Policy.
+    * Credit - l0ss (@mikeloss) https://twitter.com/mikeloss
+    * Link - https://github.com/l0ss/Grouper2/blob/master/README.md
+   
 
 ### Lateral Movement
 1. SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
@@ -96,73 +145,23 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 5. SharpMove - .NET Project for performing Authenticated Remote Execution
    * Credit - https://twitter.com/0xthirteen
    * Link - https://github.com/0xthirteen/SharpMove
+6. SCShell - fileless lateral movement tool that relies on ChangeServiceConfigA to run commands.
+    * Credit - https://twitter.com/MrUn1k0d3r
+    * Link - https://github.com/Mr-Un1k0d3r/SCShell
 
 ### Exfiltration
 1. SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
    * Credit -  https://twitter.com/_P1CKLES_
    * Link - https://github.com/P1CKLES/SharpBox
-
-## Other projects which doesn't start with Sharp something but absolutely worth knowing about:
-1. Rubeus - toolset for raw Kerberos interaction and abuses.
-   * Credit - https://twitter.com/harmj0y
-   * Link - https://github.com/GhostPack/Rubeus
-2. SafetyKatz - combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader.
-   * Credit - https://twitter.com/harmj0y
-   * Link - https://github.com/GhostPack/SafetyKatz
-3. Seatbelt - project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
-   * Credit  -https://twitter.com/harmj0y
-   * Link - https://github.com/GhostPack/Seatbelt
-4. Watson -  Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities
-   * Credit - https://twitter.com/\_RastaMouse
-   * Link - https://github.com/rasta-mouse/Watson
-5. ADFSDump -  dump all sorts of goodies from AD FS.
-   * Credit - https://twitter.com/doughsec
-   * Link - https://github.com/fireeye/ADFSDump
-6. OffensiveCSharp - Collection of Offensive C# Tooling
-   * Credit - https://twitter.com/matterpreter
-   * Link - https://github.com/matterpreter/OffensiveCSharp
-7. CredSniper - Prompts the current user for their credentials using the CredUIPromptForWindowsCredentials WinAPI function. Supports an argument to provide the message text that will be shown to the user.
-   * Credit - https://twitter.com/matterpreter
-   * Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/CredPhisher
-8. EncryptedZIP -Compresses a directory or file and then encrypts the ZIP file with a supplied key using AES256 CFB. This assembly also clears the key out of memory using RtlZeroMemory. Use the included Decrypter progam to decrypt the archive.
+2. EncryptedZIP -Compresses a directory or file and then encrypts the ZIP file with a supplied key using AES256 CFB. This assembly also clears the key out of memory using RtlZeroMemory. Use the included Decrypter progam to decrypt the archive.
    * Credit - https://twitter.com/matterpreter
    * Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/EncryptedZIP
-9. SessionSearcher - Searches all connected drives for PuTTY private keys and RDP connection files and parses them for relevant details. Based on SessionGopher by @arvanaghi.
-   * Credit - https://twitter.com/matterpreter
-   * Link -https://github.com/matterpreter/OffensiveCSharp/tree/master/SearchSessions
-10. UnquotedPath - Outputs a list of unquoted service paths that aren't in System32/SysWow64 to plant a PE into. 
-    * Credit -https://twitter.com/matterpreter
-    * Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/UnqoutedPath
-11. Internal Monologue - Retrieving NTLM Hashes without Touching LSASS
-    * Credit - https://www.twitter.com/elad_shamir
-    * Link - https://github.com/eladshamir/Internal-Monologue
-12. InveighZero - Windows C# LLMNR/mDNS/NBNS/DNS spoofer/man-in-the-middle tool
-    * Credit - https://twitter.com/kevin_robertson
-    * Link - https://github.com/Kevin-Robertson/InveighZero
-13. SCShell - fileless lateral movement tool that relies on ChangeServiceConfigA to run commands.
-    * Credit - https://twitter.com/MrUn1k0d3r
-    * Link - https://github.com/Mr-Un1k0d3r/SCShell
-14. ATPMiniDump - Dumping LSASS memory with MiniDumpWriteDump on PssCaptureSnapShot to evade WinDefender ATP credential-theft.
-    * Credit - https://twitter.com/b4rtik
-    * Link - https://github.com/b4rtik/ATPMiniDump
-15. RdpTheif - Extracting Clear Text Passwords from mstsc.exe using API Hooking.
-    * Credit - https://twitter.com/0x09AL
-    * Link - https://github.com/0x09AL/RdpThief
-16. Spray-AD -  audit Active Directory user accounts for weak, well known or easy guessable passwords.
-    * Credit - https://twitter.com/Cneelis
-    * Link - https://github.com/outflanknl/Spray-AD
-17. Recon-AD - an AD recon tool based on ADSI and reflective DLL’s
-    * Credit - https://twitter.com/Cneelis
-    * Link - https://github.com/outflanknl/Recon-AD
-18. Zipper - a CobaltStrike file and folder compression utility.
+3. Zipper - a CobaltStrike file and folder compression utility.
     * Credit - Cornelis de Plaa (@Cneelis) / Outflank
     * Link - https://github.com/outflanknl/Zipper
-19. Grouper2 - A tool for pentesters to help find security-related misconfigurations in Active Directory Group Policy.
-    * Credit - l0ss (@mikeloss) https://twitter.com/mikeloss
-    * Link - https://github.com/l0ss/Grouper2/blob/master/README.md
-20. EyeWitness - take screenshots of websites, provide some server header info, and identify default credentials if possible
-    * Credit - https://twitter.com/Matt_Grandy_ and https://twitter.com/christruncer
-    * Link - https://github.com/FortyNorthSecurity/EyeWitness
 
-
+## Other projects
+1. OffensiveCSharp - Collection of Offensive C# Tooling
+   * Credit - https://twitter.com/matterpreter
+   * Link - https://github.com/matterpreter/OffensiveCSharp
 
