@@ -31,6 +31,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 4. UnquotedPath - Outputs a list of unquoted service paths that aren't in System32/SysWow64 to plant a PE into. 
     * Credit -https://twitter.com/matterpreter
     * Link - https://github.com/matterpreter/OffensiveCSharp/tree/master/UnqoutedPath
+5. SweetPotato - Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Server 2019
+    * Credit - https://twitter.com/_EthicalChaos_
+    * Link - https://github.com/CCob/SweetPotato
 
 ### Defense Evasion
 1. SharpCradle - download and execute .NET binaries into memory.
