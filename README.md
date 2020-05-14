@@ -45,6 +45,12 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 3. ATPMiniDump - Dumping LSASS memory with MiniDumpWriteDump on PssCaptureSnapShot to evade WinDefender ATP credential-theft.
     * Credit - https://twitter.com/b4rtik
     * Link - https://github.com/b4rtik/ATPMiniDump
+4. SharpeningCobaltStrike - in realtime v35/40 dotnet compiler for your linux Cobalt Strike C2. New fresh compiled and obfuscated binary for each use.
+    * Credit - https://twitter.com/cube0x0
+    * Link - https://github.com/cube0x0/SharpeningCobaltStrike
+4. BlockEtw - .Net Assembly to block ETW telemetry in current process
+    * Credit - https://twitter.com/Sol_Secure
+    * Link - https://github.com/Soledge/BlockEtw
 
 ### Credential Access
 1. SharpLocker - helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
