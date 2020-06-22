@@ -93,7 +93,7 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
    * Link - https://github.com/HunnicCyber/SharpDomainSpray
 4. SharpSniper -  Find specific users in active directory via their username and logon IP address
    * Credit - https://twitter.com/hunniccyber
-   * Link - https://github.com/HunnicCyber/SharpDomainSpray
+   * Link - https://github.com/HunnicCyber/SharpSniper
 5. SharpFruit - Port of Find-Fruit.ps1, aid Penetration Testers in finding juicy targets on internal networks without nmap scanning.
    * Credit - https://twitter.com/424f424f
    * Link - https://github.com/rvrsh3ll/SharpFruit
