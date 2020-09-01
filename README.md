@@ -80,6 +80,10 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 8. RdpTheif - Extracting Clear Text Passwords from mstsc.exe using API Hooking.
     * Credit - https://twitter.com/0x09AL
     * Link - https://github.com/0x09AL/RdpThief
+9. SharpSecDump - port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py.
+    * Credit - https://twitter.com/G0ldenGunSec
+    * Link - hhttps://github.com/G0ldenGunSec/SharpSecDump
+
 
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
