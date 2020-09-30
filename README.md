@@ -83,7 +83,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 9. SharpSecDump - port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py.
     * Credit - https://twitter.com/G0ldenGunSec
     * Link - hhttps://github.com/G0ldenGunSec/SharpSecDump
-
+10. SharpWifiGrabber - Sharp Wifi Password Grabber retrieves in clear-text the Wi-Fi Passwords from all WLAN Profiles saved on a workstation using native win32 API.
+    * Credit - https://twitter.com/r3n_hat
+    * Link - https://github.com/r3nhat/SharpWifiGrabber
 
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
