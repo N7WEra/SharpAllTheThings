@@ -142,6 +142,9 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 18. Grouper2 - A tool for pentesters to help find security-related misconfigurations in Active Directory Group Policy.
     * Credit - l0ss (@mikeloss) https://twitter.com/mikeloss
     * Link - https://github.com/l0ss/Grouper2/blob/master/README.md
+19. SharpMapExec - A sharpen version of CrackMapExec. 
+    * Credit - Cube0x0 https://twitter.com/cube0x0
+    * Link - https://github.com/cube0x0/SharpMapExec
    
 
 ### Lateral Movement
