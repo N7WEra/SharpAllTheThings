@@ -51,6 +51,12 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 4. BlockEtw - .Net Assembly to block ETW telemetry in current process
     * Credit - https://twitter.com/Sol_Secure
     * Link - https://github.com/Soledge/BlockEtw
+5. SharpEDRChecker - Checks running processes, process metadata, Dlls loaded into your current process and the each DLLs metadata, common install directories, installed services, the registry and running drivers for the presence of known defensive products such as AV's, EDR's and logging tools.
+    * Credit - https://twitter.com/PwnDexter
+    * Link - https://github.com/PwnDexter/SharpEDRChecker
+5. SharpBlock - SharpBlock can be used to load a child process and prevent any DLL from hooking into the child process. 
+    * Credit - https://twitter.com/_EthicalChaos_
+    * Link - https://github.com/CCob/SharpBlock
 
 ### Credential Access
 1. SharpLocker - helps get current user credentials by popping a fake Windows lock screen, all output is sent to Console which works perfect for Cobalt Strike.
