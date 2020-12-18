@@ -2,6 +2,34 @@
 The idea is to collect all the C# projects that are Sharp{Word} that can be used in Cobalt Strike as execute assembly command.
 Credit the name to the amazing PayloadAllTheThings github repo (https://github.com/swisskyrepo/PayloadsAllTheThings)
 
+## Pull All Repos down via Unix or WSL (Scripts written by [ZephrFish](https://twitter.com/ZephrFish))
+```
+./SharpBuilderAll.sh
+```
+The script will make the following directories and pull a copy of each project down to the respective folder:
+```
+Execution
+Persistence
+PrivEsc
+DefenseEvasion
+CredAccess
+Discovery
+LateralMovement
+Exfil
+```
+
+Once all the repos are pulled down time to build them all, note: this assumes devbuild.exe is in the following path `C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe`.
+
+Thanks to https://twitter.com/BufferOfStyx for help on the bash trickery to get the paths all looking good, if you're interested `for i in $(find . -name 2>/dev/null *.sln | sed 's/\//\\/g'); do echo "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" $i /Build "Release|x64"; done`, this can be altered for your path to devenv.exe.
+
+The builder script will take the bat file as an input and assumes it is in the same directory(BuildAllTheThings.bat)
+
+```
+BuildAllTheThings.bat
+```
+
+NOTE: this will error for some solutions and still a work in progress! 
+
 ### Execution
 1. SharpWMI - implementation of various WMI functionality. This includes local/remote WMI queries, remote WMI process creation through win32_process, and remote execution of arbitrary VBS through WMI event subscriptions. Alternate credentials are also supported for remote methods.
    * Credit - https://twitter.com/harmj0y
@@ -88,7 +116,7 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
     * Link - https://github.com/0x09AL/RdpThief
 9. SharpSecDump - port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py.
     * Credit - https://twitter.com/G0ldenGunSec
-    * Link - hhttps://github.com/G0ldenGunSec/SharpSecDump
+    * Link - https://github.com/G0ldenGunSec/SharpSecDump
 10. SharpWifiGrabber - Sharp Wifi Password Grabber retrieves in clear-text the Wi-Fi Passwords from all WLAN Profiles saved on a workstation using native win32 API.
     * Credit - https://twitter.com/r3n_hat
     * Link - https://github.com/r3nhat/SharpWifiGrabber
@@ -96,7 +124,7 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
    * Credit -  The amazing crew of Bloodhound (https://www.twitter.com/\_wald0, https://twitter.com/CptJesus, and https://twitter.com/CptJesus)
-   * Link - https://github.com/BloodHoundAD/BloodHound/tree/master/Ingestors
+   * Link - https://github.com/BloodHoundAD/SharpHound3
 2. SharpWitness - C# version of EyeWitness by Christopher Truncer. Take screenshots of websites, provide some server header info, and identify default credentials if possible.
    * Credit - https://twitter.com/_RastaMouse
    * Link - https://github.com/rasta-mouse/SharpWitness
@@ -188,4 +216,5 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 1. OffensiveCSharp - Collection of Offensive C# Tooling
    * Credit - https://twitter.com/matterpreter
    * Link - https://github.com/matterpreter/OffensiveCSharp
+   
 
