@@ -36,6 +36,7 @@ git clone https://github.com/cube0x0/SharpeningCobaltStrike DefenseEvasion/Sharp
 git clone https://github.com/Soledge/BlockEtw DefenseEvasion/BlockEtw
 git clone https://github.com/PwnDexter/SharpEDRChecker DefenseEvasion/SharpEDRChecker
 git clone https://github.com/CCob/SharpBlock DefenseEvasion/SharpBlock
+git clone https://github.com/matterpreter/DefenderCheck
 #
 ## Credential Access 
 git clone https://github.com/Pickfordmatt/SharpLocker CredAccess/SharpLocker
