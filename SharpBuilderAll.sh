@@ -14,8 +14,8 @@ mkdir LateralMovement
 mkdir Exfil
 #
 ## Execution
-git clone https://github.com/GhostPack/SharpWMI Execution/SharpWMI/
-git clone https://github.com/FSecureLABS/SharpGPOAbuse Execution/SharpGPOAbuse/
+git clone https://github.com/GhostPack/SharpWMI Execution/SharpWMI
+git clone https://github.com/FSecureLABS/SharpGPOAbuse Execution/SharpGPOAbuse
 #
 ## Persistence 
 git clone https://github.com/fireeye/SharPersist Persistence/SharPersist
