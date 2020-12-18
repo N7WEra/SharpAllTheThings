@@ -84,4 +84,4 @@ git clone https://github.com/outflanknl/Zipper Exfil/Zipper
 # Finished
 echo "Go Forth and Build!"
 # This will drop into a cmd.exe process from WSL and proceed to build the SLN files, this is still WIP
-cmd.exe /c '../BuildAllTheThings.bat'
+cmd.exe /c 'BuildAllTheThings.bat'
