@@ -2,6 +2,32 @@
 The idea is to collect all the C# projects that are Sharp{Word} that can be used in Cobalt Strike as execute assembly command.
 Credit the name to the amazing PayloadAllTheThings github repo (https://github.com/swisskyrepo/PayloadsAllTheThings)
 
+## Pull All Repos down via Unix or WSL
+```
+./SharpBuilderAll.sh
+```
+The script will make the following directories and pull a copy of each project down to the respective folder:
+```
+Execution
+Persistence
+PrivEsc
+DefenseEvasion
+CredAccess
+Discovery
+LateralMovement
+Exfil
+```
+
+Once all the repos are pulled down time to build them all, note: this assumes devbuild.exe is in the following path `C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe`.
+
+Thanks to https://twitter.com/BufferOfStyx for help on the bash trickery to get the paths all looking good, if you're interested `for i in $(find . -name 2>/dev/null *.sln | sed 's/\//\\/g'); do echo "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" $i /Build "Release|x64"; done`, this can be altered for your path to devenv.exe.
+
+```
+BuildAllTheThings.bat
+```
+
+NOTE: this will error for some solutions and still a work in progress! 
+
 ### Execution
 1. SharpWMI - implementation of various WMI functionality. This includes local/remote WMI queries, remote WMI process creation through win32_process, and remote execution of arbitrary VBS through WMI event subscriptions. Alternate credentials are also supported for remote methods.
    * Credit - https://twitter.com/harmj0y
@@ -189,28 +215,4 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
    * Credit - https://twitter.com/matterpreter
    * Link - https://github.com/matterpreter/OffensiveCSharp
    
-## Pull All Repos down via Unix or WSL
-```
-./SharpBuilderAll.sh
-```
-The script will make the following directories and pull a copy of each project down to the respective folder:
-```
-Execution
-Persistence
-PrivEsc
-DefenseEvasion
-CredAccess
-Discovery
-LateralMovement
-Exfil
-```
 
-Once all the repos are pulled down time to build them all, note: this assumes devbuild.exe is in the following path `C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe`.
-
-Thanks to https://twitter.com/BufferOfStyx for help on the bash trickery to get the paths all looking good, if you're interested `for i in $(find . -name 2>/dev/null *.sln | sed 's/\//\\/g'); do echo "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" $i /Build "Release|x64"; done`, this can be altered for your path to devenv.exe.
-
-```
-BuildAllTheThings.bat
-```
-
-NOTE: this will error for some solutions and still a work in progress! 
