@@ -88,7 +88,7 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
     * Link - https://github.com/0x09AL/RdpThief
 9. SharpSecDump - port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py.
     * Credit - https://twitter.com/G0ldenGunSec
-    * Link - hhttps://github.com/G0ldenGunSec/SharpSecDump
+    * Link - https://github.com/G0ldenGunSec/SharpSecDump
 10. SharpWifiGrabber - Sharp Wifi Password Grabber retrieves in clear-text the Wi-Fi Passwords from all WLAN Profiles saved on a workstation using native win32 API.
     * Credit - https://twitter.com/r3n_hat
     * Link - https://github.com/r3nhat/SharpWifiGrabber
@@ -96,7 +96,7 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
    * Credit -  The amazing crew of Bloodhound (https://www.twitter.com/\_wald0, https://twitter.com/CptJesus, and https://twitter.com/CptJesus)
-   * Link - https://github.com/BloodHoundAD/BloodHound/tree/master/Ingestors
+   * Link - https://github.com/BloodHoundAD/SharpHound3
 2. SharpWitness - C# version of EyeWitness by Christopher Truncer. Take screenshots of websites, provide some server header info, and identify default credentials if possible.
    * Credit - https://twitter.com/_RastaMouse
    * Link - https://github.com/rasta-mouse/SharpWitness
@@ -188,4 +188,21 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 1. OffensiveCSharp - Collection of Offensive C# Tooling
    * Credit - https://twitter.com/matterpreter
    * Link - https://github.com/matterpreter/OffensiveCSharp
+   
+## Pull All Repos down via Unix or WSL
+```
+./SharpBuilderAll.sh
+```
+The script will make the following directories and pull a copy of each project down to the respective folder:
+```
+Execution
+Persistence
+PrivEsc
+DefenseEvasion
+CredAccess
+Discovery
+LateralMovement
+Exfil
+```
+
 
