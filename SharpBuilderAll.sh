@@ -82,3 +82,5 @@ git clone https://github.com/P1CKLES/SharpBox Exfil/SharpBox
 git clone https://github.com/outflanknl/Zipper Exfil/Zipper
 # Finished
 echo "Go Forth and Build!"
+# for i in $(find . -name 2>/dev/null *.sln | sed 's/\//\\/g'); do echo "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" $i /Build "Release|x64"; done
+# Still testing
