@@ -4,6 +4,7 @@
 ## Written for WSL as it will use VS2019 to compile in BuildAllTheThings.bat
 ## Setup
 mkdir SharpBuilderAll
+cp BuildAllTheThings.bat SharpBuilderAll/
 cd SharpBuilderAll
 mkdir Execution
 mkdir Persistence
