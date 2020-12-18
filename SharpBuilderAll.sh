@@ -1,6 +1,7 @@
 # SharpAllTheThings
 # Author: ZephrFish
 # Description: Clones down all the git repos from SharpAllTheThings
+## Written for WSL as it will use VS2019 to compile in BuildAllTheThings.bat
 ## Setup
 mkdir SharpBuilderAll
 cd SharpBuilderAll
@@ -82,5 +83,5 @@ git clone https://github.com/P1CKLES/SharpBox Exfil/SharpBox
 git clone https://github.com/outflanknl/Zipper Exfil/Zipper
 # Finished
 echo "Go Forth and Build!"
-# for i in $(find . -name 2>/dev/null *.sln | sed 's/\//\\/g'); do echo "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" $i /Build "Release|x64"; done
-# Still testing
+# This will drop into a cmd.exe process from WSL and proceed to build the SLN files, this is still WIP
+cmd.exe /c 'BuildAllTheThings.bat'
