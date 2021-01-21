@@ -200,6 +200,9 @@ NOTE: this will error for some solutions and still a work in progress!
 6. SCShell - fileless lateral movement tool that relies on ChangeServiceConfigA to run commands.
     * Credit - https://twitter.com/MrUn1k0d3r
     * Link - https://github.com/Mr-Un1k0d3r/SCShell
+7. SharpSphere - gives red teamers the ability to easily interact with the guest operating systems of virtual machines managed by vCenter. I
+    * Credit - https://twitter.com/jkcoote
+    * Link - https://github.com/JamesCooteUK/SharpSphere
 
 ### Exfiltration
 1. SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
