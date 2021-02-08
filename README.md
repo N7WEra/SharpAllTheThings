@@ -235,8 +235,11 @@ NOTE: this will error for some solutions and still a work in progress!
 2. SharpAllowedToAct - implementation of a computer object takeover through Resource-Based Constrained Delegation (msDS-AllowedToActOnBehalfOfOtherIdentity)
    * Credit - https://twitter.com/pkb1s
    * Link - https://github.com/pkb1s/SharpAllowedToAct
-2. StandIn -  small AD post-compromise toolkit
+3. StandIn -  small AD post-compromise toolkit
    * Credit - https://twitter.com/FuzzySec
    * Link - https://github.com/FuzzySecurity/StandIn
+4. TruffleSnout - iterative AD discovery toolkit for offensive operators
+   * Credit - https://twitter.com/dsnezhkov
+   * Link - https://github.com/dsnezhkov/TruffleSnout
    
 
