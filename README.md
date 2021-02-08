@@ -34,7 +34,7 @@ NOTE: this will error for some solutions and still a work in progress!
 1. SharpWMI - implementation of various WMI functionality. This includes local/remote WMI queries, remote WMI process creation through win32_process, and remote execution of arbitrary VBS through WMI event subscriptions. Alternate credentials are also supported for remote methods.
    * Credit - https://twitter.com/harmj0y
    * Link - https://github.com/GhostPack/SharpWMI
-2. SharpGPOAbuse - take advantage of a user's edit rights on a Group Policy Object (GPO) in order to compromise the objects that are controlled by that GPO.
+2. SharpGPOAbuse - take advantage of a user's edit rights on a Policy Object (GPO) in order to compromise the objects that are controlled by that GPO.
    * Credit - https://twitter.com/pkb1s
    * Link - https://github.com/FSecureLABS/SharpGPOAbuse
 
@@ -120,6 +120,9 @@ NOTE: this will error for some solutions and still a work in progress!
 10. SharpWifiGrabber - Sharp Wifi Password Grabber retrieves in clear-text the Wi-Fi Passwords from all WLAN Profiles saved on a workstation using native win32 API.
     * Credit - https://twitter.com/r3n_hat
     * Link - https://github.com/r3nhat/SharpWifiGrabber
+10. SharpHandler - tool for stealing/duping handles to LSASS
+    * Credit - https://twitter.com/Jean_Maes_1994
+    * Link - https://github.com/jfmaes/SharpHandler
 
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
@@ -182,8 +185,11 @@ NOTE: this will error for some solutions and still a work in progress!
 20. SharpSMBSpray - Spray a hash via smb to check for local administrator access.
     * Credit - rvrsh3ll https://twitter.com/424f424f
     * Link - https://github.com/rvrsh3ll/SharpSMBSpray
+21. SauronEye - Search tool find specific files containing specific keywords (.doc, .docx, .xls, .xlsx)
+    * Credit - https://twitter.com/_vivami
+    * Link - https://github.com/vivami/SauronEye
+    
    
-
 ### Lateral Movement
 1. SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
    * Credit - https://twitter.com/424f424f
@@ -203,9 +209,13 @@ NOTE: this will error for some solutions and still a work in progress!
 6. SCShell - fileless lateral movement tool that relies on ChangeServiceConfigA to run commands.
     * Credit - https://twitter.com/MrUn1k0d3r
     * Link - https://github.com/Mr-Un1k0d3r/SCShell
-7. SharpSphere - gives red teamers the ability to easily interact with the guest operating systems of virtual machines managed by vCenter. I
+7. SharpSphere - gives red teamers the ability to easily interact with the guest operating systems of virtual machines managed by vCenter. 
     * Credit - https://twitter.com/jkcoote
     * Link - https://github.com/JamesCooteUK/SharpSphere
+8. Sharp-SMBExec - A native C# conversion of Kevin Robertsons Invoke-SMBExec powershell script
+    * Credit - https://twitter.com/checkymander
+    * Link - https://github.com/checkymander/Sharp-SMBExec
+    
 
 ### Exfiltration
 1. SharpBox - Tool for compressing, encrypting, and exfiltrating data to DropBox using the DropBox API.
@@ -222,5 +232,11 @@ NOTE: this will error for some solutions and still a work in progress!
 1. OffensiveCSharp - Collection of Offensive C# Tooling
    * Credit - https://twitter.com/matterpreter
    * Link - https://github.com/matterpreter/OffensiveCSharp
+2. SharpAllowedToAct - implementation of a computer object takeover through Resource-Based Constrained Delegation (msDS-AllowedToActOnBehalfOfOtherIdentity)
+   * Credit - https://twitter.com/pkb1s
+   * Link - https://github.com/pkb1s/SharpAllowedToAct
+2. StandIn -  small AD post-compromise toolkit
+   * Credit - https://twitter.com/FuzzySec
+   * Link - https://github.com/FuzzySecurity/StandIn
    
 
