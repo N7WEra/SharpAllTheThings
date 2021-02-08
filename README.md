@@ -179,6 +179,9 @@ NOTE: this will error for some solutions and still a work in progress!
 19. SharpMapExec - A sharpen version of CrackMapExec. 
     * Credit - Cube0x0 https://twitter.com/cube0x0
     * Link - https://github.com/cube0x0/SharpMapExec
+20. SharpSMBSpray - Spray a hash via smb to check for local administrator access.
+    * Credit - rvrsh3ll https://twitter.com/424f424f
+    * Link - https://github.com/rvrsh3ll/SharpSMBSpray
    
 
 ### Lateral Movement
