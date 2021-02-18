@@ -120,9 +120,12 @@ NOTE: this will error for some solutions and still a work in progress!
 10. SharpWifiGrabber - Sharp Wifi Password Grabber retrieves in clear-text the Wi-Fi Passwords from all WLAN Profiles saved on a workstation using native win32 API.
     * Credit - https://twitter.com/r3n_hat
     * Link - https://github.com/r3nhat/SharpWifiGrabber
-10. SharpHandler - tool for stealing/duping handles to LSASS
+11. SharpHandler - tool for stealing/duping handles to LSASS
     * Credit - https://twitter.com/Jean_Maes_1994
     * Link - https://github.com/jfmaes/SharpHandler
+12. SharpLAPS - etrieve the LAPS password from the Active Directory for accounts with ExtendedRight or Generic All Rights
+    * Credit - https://twitter.com/pentest_swissky
+    * Link - https://github.com/swisskyrepo/SharpLAPS
 
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
