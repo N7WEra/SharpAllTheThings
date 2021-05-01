@@ -218,6 +218,9 @@ NOTE: this will error for some solutions and still a work in progress!
 8. Sharp-SMBExec - A native C# conversion of Kevin Robertsons Invoke-SMBExec powershell script
     * Credit - https://twitter.com/checkymander
     * Link - https://github.com/checkymander/Sharp-SMBExec
+9. SharpNoPSExec- File less command execution for lateral movement.
+    * Credit - https://twitter.com/juliourena
+    * Link - https://github.com/juliourena/SharpNoPSExec
     
 
 ### Exfiltration
