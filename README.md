@@ -2,7 +2,7 @@
 The idea is to collect all the C# projects that are Sharp{Word} that can be used in Cobalt Strike as execute assembly command.
 Credit the name to the amazing PayloadAllTheThings github repo (https://github.com/swisskyrepo/PayloadsAllTheThings)
 
-## Pull All Repos down via Unix or WSL 
+## Pull All Repos down via Unix or WSL (Credit to [ZephrFish](https://twitter.com/ZephrFish))
 You can use [ZephrFish](https://twitter.com/ZephrFish) script to download the scripts and build locally, this can be done by following these instructions:
 https://github.com/N7WEra/SharpAllTheThings/blob/master/BuildAllTheThings/README.md
 
