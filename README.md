@@ -6,6 +6,10 @@ Credit the name to the amazing PayloadAllTheThings github repo (https://github.c
 You can use [ZephrFish](https://twitter.com/ZephrFish) script to download the scripts and build locally, this can be done by following these instructions:
 https://github.com/N7WEra/SharpAllTheThings/blob/master/BuildAllTheThings/README.md
 
+## Precompiled binaries
+You can find nightly builds of most of the tools in this awsome repo by [Flangvik](https://twitter.com/Flangvik)
+https://github.com/Flangvik/SharpCollection
+
 ### Execution
 1. SharpWMI - implementation of various WMI functionality. This includes local/remote WMI queries, remote WMI process creation through win32_process, and remote execution of arbitrary VBS through WMI event subscriptions. Alternate credentials are also supported for remote methods.
    * Credit - https://twitter.com/harmj0y
