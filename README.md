@@ -8,6 +8,7 @@ https://github.com/N7WEra/SharpAllTheThings/blob/master/BuildAllTheThings/README
 
 ## Precompiled binaries
 You can find nightly builds of most of the tools in this awsome repo by [Flangvik](https://twitter.com/Flangvik)
+
 https://github.com/Flangvik/SharpCollection
 
 ### Execution
