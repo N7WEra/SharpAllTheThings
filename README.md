@@ -172,7 +172,12 @@ https://github.com/Flangvik/SharpCollection
 21. SauronEye - Search tool find specific files containing specific keywords (.doc, .docx, .xls, .xlsx)
     * Credit - https://twitter.com/_vivami
     * Link - https://github.com/vivami/SauronEye
-    
+22. SharpShare - Multithreaded C# .NET Assembly to enumerate accessible network shares in a domain (Updated version)
+    * Credit - https://twitter.com/midi_v2
+    * Link - https://github.com/mitchmoser/SharpShares
+23. SharpLDAP - C# .NET Assembly to perform LDAP Queries
+    * Credit - https://twitter.com/midi_v2
+    * Link - https://github.com/mitchmoser/SharpLDAPSearch
    
 ### Lateral Movement
 1. SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
