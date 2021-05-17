@@ -43,6 +43,9 @@ https://github.com/Flangvik/SharpCollection
 5. SweetPotato - Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Server 2019
     * Credit - https://twitter.com/_EthicalChaos_
     * Link - https://github.com/CCob/SweetPotato
+6. AtYourService - Queries all services on a host and filters out services running as LocalSystem, NT Authority\LocalService, and NT Authority\NetworkService
+    * Credit - https://twitter.com/midi_v2
+    * Link - https://github.com/mitchmoser/AtYourService
 
 ### Defense Evasion
 1. SharpCradle - download and execute .NET binaries into memory.
@@ -107,6 +110,15 @@ https://github.com/Flangvik/SharpCollection
 12. SharpLAPS - etrieve the LAPS password from the Active Directory for accounts with ExtendedRight or Generic All Rights
     * Credit - https://twitter.com/pentest_swissky
     * Link - https://github.com/swisskyrepo/SharpLAPS
+13. BetterSafetyKatz - modified fork of SafetyKatz dynamically fetches the latest pre-compiled release of Mimikatz directly from the gentilkiwi GitHub repo, runtime patching on detected signatures and uses SharpSploit DInvoke to get it into memory.
+    * Credit - https://twitter.com/Flangvik
+    * Link - https://github.com/Flangvik/BetterSafetyKatz
+14. SharpKatz - Porting of mimikatz sekurlsa::logonpasswords, sekurlsa::ekeys and lsadump::dcsync commands
+    * Credit - https://twitter.com/b4rtik
+    * Link - https://github.com/b4rtik/SharpKatz
+15. SharpMiniDump - Create a minidump of the LSASS process from memory (Windows 10 - Windows Server 2016). The entire process uses: dynamic API calls, direct syscall and Native API unhooking to evade the AV / EDR detection.
+    * Credit - https://twitter.com/b4rtik
+    * Link - https://github.com/b4rtik/SharpMiniDump
 
 ### Discovery
 1. SharpHound -  Uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment, executes collection options necessary to populate the backend BloodHound database. 
@@ -178,6 +190,15 @@ https://github.com/Flangvik/SharpCollection
 23. SharpLDAP - C# .NET Assembly to perform LDAP Queries
     * Credit - https://twitter.com/midi_v2
     * Link - https://github.com/mitchmoser/SharpLDAPSearch
+24. ADCollector - a lightweight tool that enumerates the Active Directory environment to identify possible attack vectors.
+   * Credit - https://twitter.com/dev2nulI
+   * Link - https://github.com/dev-2null/ADCollector
+25. StandIn -  small AD post-compromise toolkit
+   * Credit - https://twitter.com/FuzzySec
+   * Link - https://github.com/FuzzySecurity/StandIn
+26. TruffleSnout - iterative AD discovery toolkit for offensive operators
+   * Credit - https://twitter.com/dsnezhkov
+   * Link - https://github.com/dsnezhkov/TruffleSnout
    
 ### Lateral Movement
 1. SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
@@ -227,11 +248,6 @@ https://github.com/Flangvik/SharpCollection
 2. SharpAllowedToAct - implementation of a computer object takeover through Resource-Based Constrained Delegation (msDS-AllowedToActOnBehalfOfOtherIdentity)
    * Credit - https://twitter.com/pkb1s
    * Link - https://github.com/pkb1s/SharpAllowedToAct
-3. StandIn -  small AD post-compromise toolkit
-   * Credit - https://twitter.com/FuzzySec
-   * Link - https://github.com/FuzzySecurity/StandIn
-4. TruffleSnout - iterative AD discovery toolkit for offensive operators
-   * Credit - https://twitter.com/dsnezhkov
-   * Link - https://github.com/dsnezhkov/TruffleSnout
+
    
 
