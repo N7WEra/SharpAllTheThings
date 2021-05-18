@@ -199,6 +199,9 @@ https://github.com/Flangvik/SharpCollection
 26. TruffleSnout - iterative AD discovery toolkit for offensive operators
    * Credit - https://twitter.com/dsnezhkov
    * Link - https://github.com/dsnezhkov/TruffleSnout
+27. ThunderFox - Retrieves data (contacts, emails, history, cookies and credentials) from Thunderbird and Firefox
+   * Credit - https://twitter.com/_theVIVI
+   * Link - https://github.com/V1V1/SharpScribbles
    
 ### Lateral Movement
 1. SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
