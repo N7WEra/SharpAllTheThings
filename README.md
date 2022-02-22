@@ -202,6 +202,9 @@ https://github.com/Flangvik/SharpCollection
 27. ThunderFox - Retrieves data (contacts, emails, history, cookies and credentials) from Thunderbird and Firefox
    * Credit - https://twitter.com/_theVIVI
    * Link - https://github.com/V1V1/SharpScribbles
+28. SharpSQL- Quick and dirty .net console app for querying mssql servers.
+   * Credit - https://www.tevora.com/threat-blog
+   * Link - https://github.com/tevora-threat/SharpSQL
    
 ### Lateral Movement
 1. SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
