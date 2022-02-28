@@ -205,6 +205,9 @@ https://github.com/Flangvik/SharpCollection
 28. SharpSQL- Quick and dirty .net console app for querying mssql servers.
    * Credit - https://www.tevora.com/threat-blog
    * Link - https://github.com/tevora-threat/SharpSQL
+29. LdapSignCheck - Beacon Object File to scan a Domain Controller to see if LdapEnforceChannelBinding or LdapServerIntegrity has been modified to mitigate against relaying attacks.
+   * Credit - https://twitter.com/cube0x0
+   * Link - https://github.com/cube0x0/LdapSignCheck
    
 ### Lateral Movement
 1. SharpCom -  port of Invoke-DCOM, Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
