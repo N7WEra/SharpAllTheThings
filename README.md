@@ -26,6 +26,9 @@ https://github.com/Flangvik/SharpCollection
 2. SharpStay - .NET project for installing Persistence
    * Credit - https://twitter.com/0xthirteen
    * Link - https://github.com/0xthirteen/SharpStay
+3. SharpEventPersist - Persistence by writing/reading shellcode from Event Log.
+   * Credit - https://twitter.com/biskopp3n
+   * Link - https://github.com/improsec/SharpEventPersist
  
 ### Privilege Escalation
 1. SharpUp -  port of various PowerUp functionality
